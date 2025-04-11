@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html  xmlns="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>ou</title>
+</head>
+<body>
+    this is page to display data
+     <p th:text= "${key}">
+<table border="1"> 
+        <tr th:each="ref:${key}">
+            <td th:text="${ref.Stud_id}"></td>
+            <td th:text="${ref.name}"></td>
+        </tr>
+    </table>
+</body>
+</html>

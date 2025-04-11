@@ -1,0 +1,71 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #A770EF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+input
+{
+    font-size: 18px;
+    height: 35px;
+    width: 40vh;
+    border:none;
+    border-radius: 4px;
+}
+
+input:hover
+{
+    background: lightgray;
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80vh;
+    width: 70vh;
+    border-radius: 6px;
+    box-shadow:  1px 2px 4px 5px lightyellow;
+    background-color: aliceblue;
+}
+
+label
+{
+    font-size: 22px;
+    color: deeppink;
+}
+
+#btn1
+{
+    height: 35px;
+    width: 60vh;
+    border-radius: 4px;
+    background: #480048;
+    border: none;
+    color:white;
+}
+#btn1:hover
+{
+    background: #fffc00;  /* fallback for old browsers */
+
+     color: black;
+    border: none;
+}
+
+
+
+
